@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración del correo con dominio propio~ &mdash; El blog de Lau~</title>
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/logo.png"/>
+    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="El blog de Lau~" />
+    <meta name="title" content="Configuración del correo con dominio propio~ ">
+    <link rel="canonical" href="http://lauravanessa.com/2008/08/05/configuracion-del-correo-con-dominio-propio/">
+     
+           
+    <meta property="og:title" content="Configuración del correo con dominio propio~ "/>
+    <meta property="og:url" content="http://lauravanessa.com/2008/08/05/configuracion-del-correo-con-dominio-propio/"/>
+    
+    
+    <meta property="og:description" content=" "/>
+    <meta name="description" content=" "/>
+    
+    <meta property="og:site_name" content="El blog de Lau~">     
+</head>
+<body>
+    
+<section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <a class="brand" href="/">
+                <img src="/images/logo.png" alt="Inc">
+            </a>
+            <a href="/" class="home">Blog</a>
+            
+            
+        </nav>
+        
+    </header>
+</section>
+
+
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                By <address><a rel="author" href="" title="Laura Vanessa Morales" target="_blank">Laura Vanessa Morales</a></address> &mdash;
+                <time pubdate datetime="2008-05-August" title="August 05, 2008">August 05, 2008</time>
+            </div>
+            <h1 class="title">Configuración del correo con dominio propio~</h1>
+            
+        </header>
+
+        <section>
+            <p>A propósito del post que escribí sobre <a href="http://lauravanessa.com/del-como-tengo-un-correo-con-mi-dominio/" title="como tengo un correo con mi dominio" target="_blank">cómo tengo un correo con mi dominio</a>, varios me han escrito preguntándome sobre una serie de cosas. A continuación unas respuestas rápidas a sus dudas.</p>
+<p><font color="#88a31e">No se necesita tener hosting</font> para configurar los correos electronicos de tu propio dominio. Sólo compra tu dominio y <a href="http://www.google.com/support/a/bin/answer.py?hl=en&amp;answer=47610" title="creating your cname record" target="_blank">desde godaddy se pueden hacer todos los cambios</a> necesarios para el acceso a tus correos.</p>
+<p><img src="http://lauravanessa.com/wp-content/uploads/2008/08/apps-circ.thumbnail.jpg" alt="Google Apps" align="right"></p>
+<p><font color="#88a31e">Si lo haces con Google Apps</font> tienes la ventaja de que además, tus correos con dominio propio tendrán todas las características de una cuenta de gmail (<a href="http://calendar.google.com/" title="Google calendar" target="_blank">Google calendar</a>, <a href="http://lauravanessa.com/wp-admin/docs.google.com/" title="google docs" target="_blank">documents</a>, <a href="http://google.com/talk/" title="Google talk" target="_blank">Gtalk</a>, etc.)</p>
+<p><font color="#88a31e">Para cambiar las urls</font> de acceso al correo y la pagina de inicio de tu cuenta de google apps, debes seguir los <a href="http://www.google.com/support/a/bin/static.py?page=troubleshooter.cs&amp;problem=apps_intro&amp;selected=custom_url&amp;ctx=apps_intro_custom_url_53340" title="creating custom urls" target="_blank">pasos desde la cuenta de administrador</a> y luego crear tantos <a href="http://www.google.com/support/a/bin/answer.py?hl=en&amp;answer=45689" title="CNAMEs" target="_blank">CNAMEs</a> necesarios como alias para las urls personalizadas.</p>
+<p><span id="more-107"></span>Es decir, si quieres que tu acceso a las cuentas de correo de tu dominio sea correo.dominio.com o webmail.dominio.com, deberas crear un cname con el alias “correo” o “webmail” según sea el caso.</p>
+<p><a href="http://lauravanessa.com/wp-content/uploads/2008/08/config-cname.jpg" title="Config cname"></a></p>
+<p><a href="http://lauravanessa.com/wp-content/uploads/2008/08/config-cname.jpg" title="Config cname"><img src="http://lauravanessa.com/wp-content/uploads/2008/08/config-cname.jpg" alt="Config cname" height="181" width="452"></a></p>
+<p>Así mismo, si la url de tu página de inicio será home.dominio.com o inicio.dominio.com, <font color="#88a31e">debes crear cnames con el alias escogido</font>.</p>
+<p>Para finalizar, debes <a href="http://www.google.com/support/a/bin/answer.py?answer=33352&amp;ctx=sibling" title="configurar MX records" target="_blank">configurar los MX records</a>. Simplemente borras todos los que estén por defecto y creas estos cinco:</p>
+<p>De tal manera que <a href="http://kwimmer.com/ss/googapps/google%20apps_html_m28a434e2.png" title="mx records" target="_blank">así quedará</a>.</p>
+<p>Y bueno creo que es todo, <font color="#88a31e">no es tan dificil como parece</font>, en realidad sólo es cuestión de seguir los pasos al pie de la letra y listo :) Suerte~</p>
+
+            
+<div class="social">
+    <div>
+        <a href="https://twitter.com/share" class="twitter-share-button"  data-text="Configuración del correo con dominio propio~" data-related="lauvmg">Tweet</a>
+    </div>
+    
+    
+    <div>
+        <div class="fb-like" data-width="150" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+    </div>
+    
+    
+    
+    
+</div>
+
+            
+                
+                <h2>Respuestas a "Configuración del correo con dominio propio~"</h2>
+                <ol class="commentlist">
+    
+       <li class="graybox" id="comment-728">
+       
+            <div class="commentnumber">comment number 1 by: <a href="http://gpicon.org" rel="external">tabo</a><a href="http://gpicon.org" onclick="javascript:pageTracker._trackPageview('/outbound/commentauthor/gpicon.org');" rel="external"><img style="float: left; margin-right: 10px; border: none; display:inline;" src="http://www.gravatar.com/avatar/7a3584ef98192b3b090e2e0a7c9a64e6?rating=X&amp;default=http://use.perl.org/images/pix.gif" alt="No Gravatar" width="40" height="40/"></a>
+</div>
+               <small class="commentmetadata"><a href="#comment-728" title="">August 5th, 2008 at 4:26 pm</a>                 
+            </small><br>
+            <p>No sabía que godaddy administraba DNSs O_o es gratis eso?</p>
+<p>Otra opción gratuita para administrar DNS para dominios es <a href="http://www.everydns.com/" onclick="javascript:pageTracker._trackPageview('/outbound/comment/www.everydns.com');" rel="nofollow">http://www.everydns.com/</a> (lo maneja la misma gente de opendns)</p>
+            
+        </li>
+        
+         
+    
+       <li class="non_graybox" id="comment-734">
+       
+            <div class="commentnumber">comment number 2 by: <a href="http://megamundos.blogspot.com" rel="external">Raul Hugo</a><a href="http://megamundos.blogspot.com" onclick="javascript:pageTracker._trackPageview('/outbound/commentauthor/megamundos.blogspot.com');" rel="external"><img style="float: left; margin-right: 10px; border: none; display:inline;" src="http://www.gravatar.com/avatar/d207dfc04524519f516e3f32df986d2e?rating=X&amp;default=http://use.perl.org/images/pix.gif" alt="No Gravatar" width="40" height="40/"></a>
+</div>
+               <small class="commentmetadata"><a href="#comment-734" title="">August 5th, 2008 at 6:54 pm</a>                 
+            </small><br>
+            <p>Exelente! Gracias por los Datos</p>
+            
+        </li>
+        
+         
+    
+       <li class="graybox" id="comment-736">
+       
+            <div class="commentnumber">comment number 3 by: <a href="http://jj.isgeek.net/" rel="external">Jj</a><a href="http://jj.isgeek.net/" onclick="javascript:pageTracker._trackPageview('/outbound/commentauthor/jj.isgeek.net');" rel="external"><img style="float: left; margin-right: 10px; border: none; display:inline;" src="http://www.gravatar.com/avatar/1467ee506c0ce1b4b157f278c46b3f08?rating=X&amp;default=http://use.perl.org/images/pix.gif" alt="No Gravatar" width="40" height="40/"></a>
+</div>
+               <small class="commentmetadata"><a href="#comment-736" title="">August 5th, 2008 at 7:29 pm</a>                 
+            </small><br>
+            <p>Chévere, pero te falta asociar tu dominio a la federación XMPP para que puedas conversar con gente fuera de la red GTalk</p>
+<p><a href="https://www.xmpp.net/account-request" onclick="javascript:pageTracker._trackPageview('/outbound/comment/www.xmpp.net');" rel="nofollow">https://www.xmpp.net/account-request</a></p>
+            
+        </li>
+        
+         
+    
+       <li class="non_graybox" id="comment-740">
+       
+            <div class="commentnumber">comment number 4 by: lauvmg<img style="float: left; margin-right: 10px; border: none; display:inline;" src="http://www.gravatar.com/avatar/0f22bccf802f51dafe650f37f3377d49?rating=X&amp;default=http://use.perl.org/images/pix.gif" alt="No Gravatar" width="40" height="40/">
+</div>
+               <small class="commentmetadata"><a href="#comment-740" title="">August 5th, 2008 at 11:30 pm</a>                 
+            </small><br>
+            <p><strong>Si @tabo, es gratis :D</strong></p>
+<p>Ok @Jj, me federaré para poder hablar contigo ¬¬  Gracias :p</p>
+            
+        </li>
+        
+         
+    
+    </ol>
+            
+        </section>
+
+        <footer>
+            <address>
+               
+                <p>Written by <strong><a rel="author" href="https://twitter.com/" title="" target="_blank">Laura Vanessa Morales</a></strong><br>
+                <span class="muted">Soy curiosa, me gusta la tecnología, me gusta aprender, uso linux, estoy tratando de aprender python, me interesa saber cómo pasan las cosas en internet, me gusta salir, pasear, conversar, bailar, observar el comportamiento de la gente, escuchar, me gustan los beatles, depeche mode, placebo, the cure, me gusta salir en bicicleta, mecerme en mi hamaca, estar frente al mar, ah, y soy periodista.</span>
+                </p>
+            </address>
+
+        </footer>
+
+        
+    </div>
+</article>
+
+
+<footer class="site-footer">
+    <div class="container">
+        &copy; 2015 
+        
+        <nav>
+            <a href="http://lauravanessa.com/">Lauvmg</a> &middot;
+            <a href="/">Blog</a> &middot;
+            
+            
+        </nav>
+        
+        <nav class="social">
+            
+            <a href="https://twitter.com/lauvmg" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            
+            
+            <a href="http://facebook.com/lauvmg" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
+                
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>
+        <p>Incorporated theme by <a href="https://sendtoinc.com">Inc</a></p>
+    </div>
+</footer>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/assets/main.js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=253595308025739";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+</body>
+</html>
